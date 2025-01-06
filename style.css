@@ -95,10 +95,11 @@ body {
 }
 
 .back {
-  background: #cedce7;
-  background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+  background: #000000;
+  /* background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
   background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-  background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+  background: linear-gradient(45deg, #cedce7 0%, #596a72 100%); */
+  text-align: left;
 }
 
 .front:after {
@@ -110,7 +111,7 @@ body {
   height: 100%;
   content: "";
   display: block;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   background-color: #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -141,7 +142,7 @@ body {
   position: absolute;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: 1px solid transparent;
@@ -186,7 +187,7 @@ body {
 
 .front .inner p:after {
   content: "";
-  width: 4rem;
+  width: 1rem;
   height: 2px;
   position: absolute;
   background: #c6d4df;
